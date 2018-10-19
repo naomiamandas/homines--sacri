@@ -1,12 +1,73 @@
-.menu ul, .menu li, .menu a {
-  overflow: hidden;
-  background-color: white;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  text-align: center;
-  margin-block-start: 1em;
-  margin-block-end: 10em;
-  padding-inline-start: 40ex;
+/* might change color to #141B21 */
+html, body {
+  /* background-color: #d0d0d0; */
+  background-color: #141B21;
+  height: 100%;
+}
+
+@font-face {
+}
+
+.title {
+margin-top: 60px;
+margin-left: 30px;
+color: black;
+font-family: 'Fahkwang', sans-serif;
+font-size: 20px;
+font-style: italic;
+/* letter-spacing: 1px; */
+
+
+}
+.who{
+  margin-top: 75px;
+  padding: 28px;
+  margin-right: 5px;
+  font-family: 'Fahkwang', sans-serif;
+
+}
+
+.wrap {
+    /* box-shadow: 0px 10px 30px 5px red inset; */
+    box-shadow: 0px 10px 40px 5px white inset;
+    top: 10px;
+    /* background-color: #d0d0d0; */
+    background-color: #141B21;
+    width: 55%;
+    /* height: 100%; */
+    position: absolute;
+    padding-left: 10px;
+
+}
+
+.floatleft {
+    /* background-color: #d0d0d0; */
+    background-color: #141B21;
+    float: left;
+    top: 15%;
+    left: 3%;
+    width: 51%;
+    position: fixed;
+    text-align: center;
+}
+
+ .menu ul, .menu a {
+   font-family: Roboto, sans-serif;
+   color: black;
+   text-decoration: none;
+   font-size: 22px;
+}
+ .menu ul, .menu a:hover {
+   border-bottom: 14px solid;
+ }
+
+
+.floatright {
+    float: right;
+    background-color: #141B21;
+    margin-top: 10%;
+    height: 90%;
+    width: 40%;
+
 
 }
