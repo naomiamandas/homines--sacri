@@ -1,3 +1,43 @@
+.arrow{
+width: 7%;
+top: 500px;
+left: 120px;
+position: absolute;
+}
+
+
+
+.disclaimer {
+  overflow-y: scroll;
+  top: 0;
+  float: left;
+  position:absolute;
+  left: 50px;
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+  color: black;
+  background-color: white;
+  box-shadow: 0px 0px 30px 20px black inset;
+  /* text-shadow: 1px 1px 2px white; */
+
+}
+
+.disclaimer1 {
+  overflow-y: scroll;
+  position:absolute;
+  left: 50px;
+  top: 250px;
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+  color: black;
+  background-color: white;
+  box-shadow: 0px 0px 30px 20px black inset;
+
+
+}
+
 
 @use postcss-cssnext;
 /* helpers/align.css */
@@ -38,6 +78,7 @@
 .icon--info {
   background-color: #e5e5e5;
   border-radius: 50%;
+
 }
 
 /* layout/base.css */
@@ -47,7 +88,7 @@
   --bodyColor: #999;
   --bodyFontFamily: 'Helvetica', 'Arial';
   --bodyFontFamilyFallback: sans-serif;
-  --bodyFontSize: 0.8rem;
+  --bodyFontSize: 0.9rem;
   --bodyFontWeight: 400;
   --bodyLineHeight: 1.5;
 }
@@ -179,7 +220,7 @@ input[type='submit'] {
 }
 
 .login input[type='submit'] {
-  background-color: black;
+  background-color: grey;
   box-shadow: 2px 2px 12px 4px white inset ;
   border-radius: var(--loginInputBorderRadius);
   color: black;
