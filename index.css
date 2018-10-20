@@ -71,7 +71,7 @@ font-style: italic;
    background-color: #d0d0d0;
     float: right;
     /* background-color: #141B21; */
-    /* margin-top: 10%; */
+    margin-top: -2%;
     height: 90%;
     width: 40%;
 
@@ -86,4 +86,8 @@ font-style: italic;
 }
 .brush{
   width: 100%;
+}
+
+.draw{
+  width: 40%;
 }
