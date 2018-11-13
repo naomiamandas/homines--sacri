@@ -5,7 +5,9 @@ left: 120px;
 position: absolute;
 }
 
-
+img:hover {
+   -webkit-filter: invert(100%) !important;
+}
 
 .disclaimer {
   overflow-y: scroll;
