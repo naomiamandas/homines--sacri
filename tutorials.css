@@ -4,10 +4,21 @@ body{
 
 }
 
+img{
+  position: absolute;
+  width: 15%;
+  height: auto;
+  margin-left: 20px;
 
+}
+
+img:hover{
+  -webkit-filter: drop-shadow(5px 5px 5px yellow);
+  filter: drop-shadow(5px 5px 5px yellow);
+}
 
 iframe {
-    box-shadow: 3px 10px 50px 35px blue  ;
+    box-shadow: 3px 5px 60px 28px #1a0acc;
 
     display:block;
     width:50%;
