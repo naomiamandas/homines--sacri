@@ -21,6 +21,15 @@ font-family: 'Fahkwang', sans-serif;
 font-size: 20px;
 font-style: italic;
 }
+.title2 {
+margin-top: 60px;
+margin-left: 40px;
+color: red;
+font-family: 'Fahkwang', sans-serif;
+font-size: 20px;
+font-style: italic;
+}
+
 
 .floatleft {
     background-color: #d0d0d0;
@@ -98,17 +107,4 @@ font-style: italic;
 
 .mask{
   width: 101/%;
-}
-
-.eye{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 30%;
-}
-
-.img{
-  top: 0;
-  left: 0;
-  width: 30%;
 }
