@@ -99,3 +99,16 @@ font-style: italic;
 .mask{
   width: 101/%;
 }
+
+.eye{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+}
+
+.img{
+  top: 0;
+  left: 0;
+  width: 30%;
+}
